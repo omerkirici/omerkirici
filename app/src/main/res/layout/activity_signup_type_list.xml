@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="196dp"
+            app:srcCompat="@drawable/logo"
+            android:id="@+id/imageView3" />
+
+        <TextView
+            android:textColor="@color/whitesmoke"
+            android:textSize="20pt"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:text="Sign up with"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5" />
+
+        <Button style="@style/Signup_btn_facebook"
+            android:text="Facebook"
+            android:layout_width="match_parent"
+
+            android:id="@+id/signup_button_facebook" />
+
+        <Button style="@style/Signup_btn_twitter"
+            android:text="Twitter"
+            android:layout_width="match_parent"
+
+            android:id="@+id/signup_button_twitter" />
+
+        <Button style="@style/Signup_btn_google"
+            android:text="Google+"
+            android:layout_width="match_parent"
+
+            android:id="@+id/signup_button_google" />
+
+        <Button style="@style/form_button_default"
+            android:text="Fill Form"
+            android:layout_width="match_parent"
+
+            android:id="@+id/signup_button_form" />
+    </LinearLayout>
+</ScrollView>
+
+</LinearLayout>

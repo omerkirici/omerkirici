@@ -1,0 +1,161 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="Theme.Transparent" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <style name="Message_LinearLayout">
+        <item name="android:textColor">@color/transparent_black_hex_15</item>
+
+        <item name="android:layout_weight">0.70</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:capitalize">characters</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textSize">8pt</item>
+        />
+    </style>
+    <style name="myDialog" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowNoTitle">true</item>
+
+    </style>
+
+    <style name="form_input_text_default">
+        <item name="android:ems">10</item>
+        <item name="android:inputType">text</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_marginRight">30dp</item>
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:layout_marginBottom">2dp</item>
+        <item name="android:textColorHint">@color/transparent_black_hex_7</item>
+        <item name="android:background">@color/transparent_white_hex_14</item>
+        <item name="android:textColor">@color/darkred</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:weightSum">0.13</item>
+    </style>
+
+    <style name="Login_Form_input_user">
+        <item name="android:ems">10</item>
+        <item name="android:inputType">text</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_marginRight">30dp</item>
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:layout_marginBottom">2dp</item>
+        <item name="android:textColorHint">@color/transparent_black_hex_7</item>
+        <item name="android:hint">@string/user_login_form_user</item>
+
+        <item name="android:background">@color/transparent_white_hex_8</item>
+        <item name="android:textColor">@color/darkred</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:weightSum">0.13</item>
+    </style>
+    <style name="Login_Form_input_pw">
+        <item name="android:ems">10</item>
+        <item name="android:inputType">textWebPassword</item>
+        <item name="android:hint">@string/user_login_form_password</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_marginRight">30dp</item>
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:layout_marginBottom">2dp</item>
+        <item name="android:textColorHint">@color/transparent_black_hex_7</item>
+        <item name="android:background">@color/transparent_white_hex_8</item>
+        <item name="android:textColor">@color/darkred</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:weightSum">0.13</item>
+    </style>
+
+    <style name="form_button_default">
+        <item name="android:weightSum">0.01</item>
+
+
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_marginRight">30dp</item>
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:layout_marginBottom">2dp</item>
+
+        <item name="android:background">@color/transparent_white_hex_15</item>
+        <item name="android:textColor">@color/darkred</item>
+        <item name="android:padding">3dp</item>
+
+    </style>
+
+    <style name="Signup_btn_facebook">
+        <item name="android:background">@color/facebook</item>
+
+        <item name="android:drawableLeft">@mipmap/ic_icon_facebook</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_marginRight">30dp</item>
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:layout_marginBottom">2dp</item>
+
+
+        <item name="android:textColor">@color/white</item>
+        <item name="android:padding">3dp</item>
+
+    </style>
+    <style name="Signup_btn_twitter">
+
+
+        <item name="android:drawableLeft">@mipmap/ic_icon_twitter</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_marginRight">30dp</item>
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:layout_marginBottom">2dp</item>
+        <item name="android:background">@color/twitter</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:padding">3dp</item>
+
+    </style>
+    <style name="Signup_btn_google">
+
+
+        <item name="android:drawableLeft">@mipmap/ic_icon_google_plus</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_marginRight">30dp</item>
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:layout_marginBottom">2dp</item>
+
+        <item name="android:background">@color/transparent_white_hex_15</item>
+        <item name="android:textColor">@color/darkred</item>
+        <item name="android:padding">3dp</item>
+
+    </style>
+    <style name="Message_text_Edittext">
+        <item name="android:textColor">@color/transparent_black_hex_15</item>
+        <item name="android:background">@color/transparent_white_percent_70</item>
+        <item name="android:layout_weight">0.60</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+
+
+        />
+
+
+    </style>
+</resources>

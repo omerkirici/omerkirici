@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg">
+
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="426dp"
+        android:orientation="vertical">
+        <TextView
+            android:textSize="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:id="@+id/UserName"
+            android:background="@color/burlywood"
+            android:textColor="@color/transparent_white_hex_15"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:padding="10dp"
+            android:hint="@string/user_sign_up_form_nick"
+            android:text="@string/user_profile_update_title"
+            android:inputType="textPersonName" />
+        <EditText
+            android:layout_marginBottom="2dp"
+            android:textColorHint="@color/transparent_black_hex_7"
+            android:textColor="@color/darkred"
+            android:background="@color/transparent_white_hex_9"
+            android:id="@+id/name"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:ems="10"
+            android:padding="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:hint="@string/user_sign_up_form_name"
+            android:inputType="textPersonName" />
+        <EditText
+            android:layout_marginBottom="2dp"
+            android:textColorHint="@color/transparent_black_hex_7"
+            android:textColor="@color/darkred"
+            android:background="@color/transparent_white_hex_9"
+            android:id="@+id/surname"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:ems="10"
+            android:padding="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:hint="@string/user_sign_up_form_surname"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:layout_marginBottom="2dp"
+            android:textColorHint="@color/transparent_black_hex_7"
+            android:textColor="@color/darkred"
+            android:background="@color/transparent_white_hex_9"
+            android:id="@+id/emailAd"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:ems="10"
+            android:padding="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:hint="@string/user_sign_up_form_email"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:layout_marginBottom="2dp"
+            android:textColorHint="@color/transparent_black_hex_7"
+            android:textColor="@color/darkred"
+            android:background="@color/transparent_white_hex_9"
+            android:id="@+id/Password_update"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:ems="10"
+            android:padding="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:hint="@string/user_sign_up_form_password"
+            android:inputType="textWebPassword" />
+
+
+
+
+
+        <EditText
+            android:layout_marginBottom="20dp"
+            android:textColorHint="@color/transparent_black_hex_7"
+            android:textColor="@color/darkred"
+            android:background="@color/transparent_white_hex_9"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:inputType="phone"
+            android:ems="10"
+            android:padding="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:hint="@string/user_sign_up_form_phone"
+            android:id="@+id/phone" />
+
+        <Button
+            android:layout_marginBottom="2dp"
+            android:textColor="@color/darkred"
+            android:background="@color/transparent_white_hex_15"
+            android:padding="10dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:id="@+id/BTNUpdate"
+            android:layout_width="match_parent"
+
+            android:text="Update" />
+
+
+        <Button
+            android:textColor="@color/darkred"
+            android:background="@color/transparent_white_hex_15"
+            android:padding="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:text="@string/user_profile_update_btn_backto"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/BackToProfile" />
+
+
+
+    </LinearLayout>
+
+</ScrollView>

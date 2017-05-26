@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "206143271360",
+    "firebase_url": "https://luckyegg-86a37.firebaseio.com",
+    "project_id": "luckyegg-86a37",
+    "storage_bucket": "luckyegg-86a37.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:206143271360:android:631f1810facfbcd7",
+        "android_client_info": {
+          "package_name": "com.aljazarisoft.apps.luckyegg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "206143271360-qkaoe298nac7ucaoaptu1n0tj218qb0v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aljazarisoft.apps.luckyegg",
+            "certificate_hash": "69311e37cff5703caeb74f4c82219e1684a7b834"
+          }
+        },
+        {
+          "client_id": "206143271360-5u3e9gijudla8j3g2jn5mjv2i6q5gn9v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDL_sQTBg8t3A8v02seHHx6CaTIegrz_1s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "206143271360-5u3e9gijudla8j3g2jn5mjv2i6q5gn9v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

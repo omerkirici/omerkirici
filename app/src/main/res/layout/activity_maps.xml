@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/map"
+            tools:context=".MapLocationActivity"
+            android:name="com.google.android.gms.maps.SupportMapFragment"/>
+
+        <Button
+            style="@style/form_button_default"
+            android:id="@+id/dropeggBTN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DROP AN EGG"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_current_location"
+            android:id="@+id/refleshLocation"
+            android:layout_above="@+id/dropeggBTN"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="14dp" />
+
+        <TextView
+            android:textColor="@color/white"
+            android:background="@color/transparent_black_hex_9"
+            android:gravity="center"
+            android:textSize="18pt"
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/LoadMap" />
+    </RelativeLayout>
+
+
+</LinearLayout>
